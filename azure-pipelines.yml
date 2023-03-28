@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: abbytest-pool
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
